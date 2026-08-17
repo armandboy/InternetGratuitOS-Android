@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="igos_bg">#081415</color>
+    <color name="igos_panel">#0F2234</color>
+    <color name="igos_blue">#1473E6</color>
+    <color name="igos_green">#20D987</color>
+    <color name="igos_text">#F4F8FB</color>
+    <color name="igos_soft">#9CB0C6</color>
+</resources>
