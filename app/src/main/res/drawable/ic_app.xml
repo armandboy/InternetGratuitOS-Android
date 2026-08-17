@@ -1,7 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="48dp" android:height="48dp"
-    android:viewportWidth="48" android:viewportHeight="48">
-    <path android:fillColor="#0F2234" android:pathData="M8,4h32a4,4 0,0 1,4 4v32a4,4 0,0 1,-4 4h-32a4,4 0,0 1,-4 -4v-32a4,4 0,0 1,4 -4z"/>
-    <path android:fillColor="#20D987" android:pathData="M24,31a3,3 0,1 0,0.01 0z"/>
-    <path android:fillColor="#1473E6" android:pathData="M12.5,20.5c6.4,-6.3 16.6,-6.3 23,0l-2.9,2.9c-4.8,-4.7 -12.4,-4.7 -17.2,0zM17.1,25.1c3.8,-3.7 10,-3.7 13.8,0l-2.9,2.9c-2.2,-2.1 -5.8,-2.1 -8,0z"/>
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Fond violet inspiré du logo Internet Gratuit -->
+    <path android:fillColor="#D9BEFF"
+        android:pathData="M54,3 A51,51 0,1 0,54,105 A51,51 0,1 0,54,3"/>
+    <path android:fillColor="#00000000" android:strokeColor="#4B347B" android:strokeWidth="6"
+        android:pathData="M54,6 A48,48 0,1 0,54,102 A48,48 0,1 0,54,6"/>
+
+    <!-- Traits de vitesse rouges -->
+    <path android:fillColor="#FF3B24" android:pathData="M20,32 L39,32 Q42,32 42,35 Q42,38 39,38 L20,38 Q17,38 17,35 Q17,32 20,32 Z"/>
+    <path android:fillColor="#F52A17" android:pathData="M15,47 L42,47 Q45,47 45,50 Q45,53 42,53 L15,53 Q12,53 12,50 Q12,47 15,47 Z"/>
+    <path android:fillColor="#E42512" android:pathData="M20,62 L38,62 Q41,62 41,65 Q41,68 38,68 L20,68 Q17,68 17,65 Q17,62 20,62 Z"/>
+
+    <!-- Bulle rouge/orange -->
+    <path android:fillColor="#FF3B24"
+        android:pathData="M44,28 L76,28 Q86,28 86,38 L86,65 Q86,75 76,75 L70,75 L78,84 L64,75 L44,75 Z"/>
+
+    <!-- Téléphone bleu marine -->
+    <path android:fillColor="#142C50"
+        android:pathData="M41,17 Q38,17 38,21 L38,82 Q38,87 43,87 L55,84 Q58,83 58,79 L58,74 L45,77 L45,27 L59,30 L59,24 Q59,21 56,21 Z"/>
+    <path android:fillColor="#C8A5FF" android:pathData="M49,20 A2.5,2.5 0,1 0,49,25 A2.5,2.5 0,1 0,49,20"/>
+    <path android:fillColor="#C8A5FF" android:pathData="M47,81 Q47,79 49,79 L53,78 Q55,78 55,80 Q55,82 53,82.5 L49,83 Q47,83 47,81 Z"/>
+
+    <!-- Wi-Fi blanc -->
+    <path android:fillColor="#00000000" android:strokeColor="#FFFFFF" android:strokeWidth="4" android:strokeLineCap="round"
+        android:pathData="M52,48 Q64,37 76,48"/>
+    <path android:fillColor="#00000000" android:strokeColor="#FFFFFF" android:strokeWidth="4" android:strokeLineCap="round"
+        android:pathData="M57,54 Q64,47 71,54"/>
+    <path android:fillColor="#00000000" android:strokeColor="#FFFFFF" android:strokeWidth="4" android:strokeLineCap="round"
+        android:pathData="M61,60 Q64,57 67,60"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M64,63 A2.5,2.5 0,1 0,64,68 A2.5,2.5 0,1 0,64,63"/>
 </vector>
